@@ -1,3 +1,11 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  text-decoration: none;
+  overflow-x: hidden;
+}
+
 .App {
   text-align: center;
 }
@@ -35,4 +43,30 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+/*nav bar*/
+.nav-div,
+.nav-divfoot {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 85px;
+  background-color: #61dafb;
+}
+.nav-div {
+  position: fixed;
+}
+.nav-div ul,
+.nav-divfoot ul {
+  width: 100%;
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.main {
+  padding-top: 90px;
+  height: 780px;
 }
